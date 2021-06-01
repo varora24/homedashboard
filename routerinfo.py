@@ -2,7 +2,7 @@ import pprint
 import datetime
 from pynetgear import Netgear
 
-netgear = Netgear(password="Arora@2003")
+netgear = Netgear(password="*******")
 devices = netgear.get_attached_devices()
 #for i in devices:
 #    pprint.pprint(i[0])
