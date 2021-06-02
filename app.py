@@ -91,7 +91,7 @@ def sendemail(NewTask):
     print(NewTask)
 
 def routerinfo():
-    netgear = Netgear(password="Arora@2003")
+    netgear = Netgear(password="********")
     devices = netgear.get_attached_devices()
 
     routerinfo = netgear.get_info()
