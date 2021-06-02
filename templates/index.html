@@ -5,19 +5,20 @@
 		<link rel="icon" type="image/png" href="https://th.bing.com/th/id/OIP.3C_EHrvSoYKCLlrDgwYdAQHaHa?pid=ImgDet&rs=1"/>
 		<link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
 	</head>
-	<body align="center">
+	<body align="center" style="background-color: #b0b0b0;">
 		<div class="topnav" style="align-items: center;">
   			<a class="active" href="/">Home</a>
   			<a href="/kitchen">Kitchen</a>
   			<a href="/network">WiFi</a>
 			<a href="/manas">Manas</a>
-			<a href="/manas">Vineet</a>
-			<a href="/manas">Arpita</a>
-			<a href="/manas">Vaibhav</a>
+			<a href="/vineet">Vineet</a>
+			<a href="/arpita">Arpita</a>
+			<a href="/vaibhav">Vaibhav</a>
 		</div>
+		<div>
 		<table style="height: 100%;width: 100%;">
 			<tr>
-				<td style="width: 30%;height: 100%;">
+				<td style="width: 20%;height: 100%;">
 					<h1> To do list </h1>
 					<form action="#" method="POST">
 						Task: <input type="text" name="taskentry" />
@@ -26,13 +27,13 @@
 						<select name="assignto">  
 							<option value = "all" selected> All  
 							</option>  
-							<option value = "manas"> Manas   
+							<option value = "Manas"> Manas   
 							</option>  
-							<option value = "arpita"> Arpita  
+							<option value = "Arpita"> Arpita  
 							</option>  
-							<option value = "vineet"> Vineet  
+							<option value = "Vineet"> Vineet  
 							</option>
-							<option value = "vaibhav"> Vaibhav  
+							<option value = "Vaibhav"> Vaibhav  
 							</option>
 							</select>  
 						<br><br>
@@ -51,18 +52,83 @@
 					</table>
 					</div>
 				</td>
-				<td style="width: 50%;height: 100%;background-color: aqua;">
-					<h1 style="align:center;">Hello World</h1>
+				<td style="width: 60%;height: 100%;">
+					<center>
+						<div2 class="container"><center>
+							<table style="background-color: white;width: 100%;border-radius: 50px;">
+								<tr>
+									<td style="width: 4%;"></td>
+									<td style="width: 23%;">
+										<button style="width: 100%;">Guest wifi</button>
+									</td>
+									<td style="width: 23%;">
+										<button style="width: 100%;">Coming Soon</button>
+									</td>
+									<td style="width: 23%;">
+										<button style="width: 100%;">Coming Soon</button>
+									</td>
+									<td style="width: 23%;">
+										<button style="width: 100%;">Coming Soon</button>
+									</td>
+									<td style="width: 4%;"></td>
+								</tr>
+								<tr>
+									<td style="width: 4%;"></td>
+									<td style="width: 23%;">
+										<button style="width: 100%;">Coming Soon</button>
+									</td>
+									<td style="width: 23%;">
+										<button style="width: 100%;">Coming Soon</button>
+									</td>
+									<td style="width: 23%;">
+										<button style="width: 100%;">Coming Soon</button>
+									</td>
+									<td style="width: 23%;">
+										<button style="width: 100%;">Coming Soon</button>
+									</td>
+									<td style="width: 4%;"></td>
+								</tr>
+
+
+							</table>
+						</center></div2><br>
+						<div2 class="container"><center>
+							<table style="background-color: white;width: 100%;border-radius: 50px;">
+								<tr>
+									<td style="width: 33%;">
+										<p>Image for weather</p>
+									</td>
+									<td style="width: 50%;">
+										<p> Description</p>
+									</td>
+									<td style="width: 17%;">
+										<center>
+											<p> Temperature</p>
+										</center>
+									</td>
+								</tr>
+							</table>
+						</center></div2>
+
+
+					</center>
 				</td>
 				<td>
 					<h1>Profiles:</h1>
-					<button href="/manas">Manas</button>
-					<button>Vaibhav</button>
-					<button>Vineet</button>
-					<button>Arpita</button>
+					<a href="/manas">
+					<button style="width: 90%;line-height: 1.5;">Manas</button>
+					</a>
+					<br><br>
+					<button style="width: 90%;line-height: 1.5;">Vaibhav</button>
+					<br><br>
+					<button style="width: 90%;line-height: 1.5;">Vineet</button>
+					<br><br>
+					<button style="width: 90%;line-height: 1.5;">Arpita</button>
+					<br><br>
 				</td>
 			</tr>
 		</table>
+		</div>
 		
 	</body>
 </html>
