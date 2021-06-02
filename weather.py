@@ -3,7 +3,7 @@ import requests
 import re
 
 
-api_key = "959d2ea31caab330b01039ed7c0011d1"
+api_key = "000000"
 
 URL = "http://api.openweathermap.org/data/2.5/weather?"
 city = "Mumbai"
